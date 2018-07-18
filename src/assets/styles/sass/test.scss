@@ -1,0 +1,184 @@
+body,
+html {
+    // overflow: hidden;
+    height: 100%;
+}
+
+.section-banner {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        .col {
+            flex: 0 0 100%;
+            max-width: 100%;
+            &.col-left {
+                flex: 0 0 50%;
+                max-width: 50%;
+                background-color: burlywood; // height: 500px;
+                @media only screen and (max-width: 1000px) {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+                .content1 {
+                    >* {
+                        opacity: 0;
+                        transform: translate(0, 30px);
+                        transition: opacity 2s linear, transform 2s ease;
+                    }
+                    &.is-animate {
+                        >* {
+                            opacity: 1;
+                            transform: translate(0, 0px);
+                            transition: opacity 1s linear, transform 1s ease;
+                            &:nth-child(1) {
+                                transition: opacity 1s ease, transform 1s ease;
+                            }
+                            &:nth-child(2) {
+                                transition: opacity 1s ease .2s, transform 1s ease .2s;
+                            }
+                        }
+                    }
+                }
+            }
+            &.col-right {
+                flex: 0 0 50%;
+                max-width: 50%;
+                background-color: gray; // height: 500px;
+                @media only screen and (max-width: 1000px) {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+                .content2 {
+                    position: relative;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .boxred {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+        margin-top: -50px;
+        background-color: red;
+        opacity: 0;
+        transition: transform 1s ease, opacity 2s linear;
+        ;
+        &.is-animate {
+            opacity: 1;
+            background-color: blue;
+            transform: translate(0, -100px);
+            transition: transform 1s ease, opacity 2s linear;
+            ;
+        }
+    }
+    .boxgreen {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-color: green;
+        width: 200px;
+        height: 100px;
+        opacity: 0;
+        transform: translate(0, 100px); // transition: opacity 2s ease, transform 2s ease, width 2s ease ;
+        transition-property: width;
+        transition: all 2s ease;
+        &.is-animate {
+            opacity: 1;
+            transform: translate(0, 0px);
+            transition: all 2s ease; // transition: opacity 2s ease,transform 2s ease, width 2s ease ;
+            transition-delay: 0.3s;
+            width: 250px; // transition-property: width;
+        }
+    }
+}
+
+section {
+    &.section2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .bigbox {
+            flex: 0 0 percentage(50/100);
+            max-width: percentage(50/100);
+            display: flex;
+            flex-wrap: wrap;
+            height: 300px;
+            background-color: darkgoldenrod;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .text{
+                
+            }
+            .box {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                // transition: transform 1s ease;
+                width: 100px;
+                height: 100px;
+                background: #fff;
+            }
+        }
+    }
+}
+
+section {
+    &.section3 {
+        
+           
+        
+        .section-wrap {
+           
+            width: 100%;
+            .wrap-object { 
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 -5px; //del margin
+                .item-pic { 
+                    flex: 0 0 33.333333333333336%;
+                    max-width: 33.333333333333336%;
+                    padding: 0 0 0 10px;
+                    margin-bottom: 5px;
+                    box-sizing: border-box;
+                    .box { 
+                        position: relative;
+                        display: block;
+                        width: 100%;
+                        padding-top: 100%;
+                        background-color: red;
+                        img{
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#few {
+    height: 100%;
+    overflow: hidden;
+}
