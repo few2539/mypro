@@ -1,9 +1,3 @@
-body,
-html {
-    // overflow: hidden;
-    height: 100%;
-}
-
 .section-banner {
     width: 100%;
     height: 100vh;
@@ -11,6 +5,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gilda Display';
+    h1 {}
 }
 
 .container {
@@ -122,15 +118,12 @@ section {
             justify-content: center;
             align-items: center;
             position: relative;
-            .text{
-                
-            }
+            .text {}
             .box {
                 position: absolute;
                 left: 50%;
                 top: 50%;
-                transform: translate(-50%, -50%);
-                // transition: transform 1s ease;
+                transform: translate(-50%, -50%); // transition: transform 1s ease;
                 width: 100px;
                 height: 100px;
                 background: #fff;
@@ -141,29 +134,25 @@ section {
 
 section {
     &.section3 {
-        
-           
-        
         .section-wrap {
-           
             width: 100%;
-            .wrap-object { 
+            .wrap-object {
                 display: flex;
                 flex-wrap: wrap;
                 margin: 0 -5px; //del margin
-                .item-pic { 
+                .item-pic {
                     flex: 0 0 33.333333333333336%;
                     max-width: 33.333333333333336%;
                     padding: 0 0 0 10px;
                     margin-bottom: 5px;
                     box-sizing: border-box;
-                    .box { 
+                    .box {
                         position: relative;
                         display: block;
                         width: 100%;
                         padding-top: 100%;
                         background-color: red;
-                        img{
+                        img {
                             position: absolute;
                             left: 0;
                             top: 0;
@@ -181,4 +170,74 @@ section {
 #few {
     height: 100%;
     overflow: hidden;
+}
+
+section {
+    &.home {
+        background-image: url("../image/hero2.jpg");
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; // img{
+        //     display:block;
+        //     width:100%; height:100%;
+        //     object-fit: cover;
+        // }
+        .hero {
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                .col {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    &.col-left {
+                        flex: 0 0 50%;
+                        max-width: 50%;
+                        .box-left {
+                            position: relative;
+                            height: 100vh;
+                            .text-wrap {
+                                color: $light-grey;
+                                .hero-group {
+                                    position: absolute;
+                                    right: percentage(130/690);
+                                    left: percentage(130/690);
+                                    top: percentage(425/800);
+                                    bottom: percentage(245/800);
+                                    .text-hero {
+                                        font-family: $Gilda-font;
+                                    }
+                                    .text-sub {
+                                        padding-top: 30px;
+                                        font-family: $Open-sans;
+                                    }
+                                }
+                            }
+                            .text-scroll {
+                                .text-rotate {
+                                    position: absolute;
+                                    top: percentage(640/800);
+                                    bottom: percentage(35/800);
+                                    left: percentage(20/690);
+                                    color: $light-grey;
+                                    font-family: $Open-sans;
+                                    transform: rotate(-90deg);
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+                    }
+                    &.col-right {
+                        flex: 0 0 50%;
+                        max-width: 50%;
+                        .box-right {
+                            position: relative;
+                            height: 100vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

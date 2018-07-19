@@ -14,7 +14,7 @@
 
 <body>
     <div id="few" data-scrollbar>
-        <div class="section-banner">
+        <!-- <div class="section-banner">
             <h1>Banner</h1>
         </div>
 
@@ -106,8 +106,41 @@
 
             </div>
 
-        </section>
+        </section> -->
 
+        <section class="home">
+            <!-- <img src="src/assets/styles/image/hero1.jpg" alt="qq"> -->
+            <div class="hero">
+                <div class="row">
+                    <div class="col col-left">
+                        <div class="box-left">
+                            <div class="text-wrap">
+                                <div class="hero-group">
+                                    <div class="text-hero">
+                                        <h1 class="font-display">Sediocer</h1>
+                                    </div>
+                                    <div class="text-sub">
+                                        <p>Lorem ipsum dolor sit amet volcibus an mea</p>
+                                    </div>
+                                </div>
+                                <div class="text-scroll font-small">
+                                    <div class="text-rotate ">
+                                        <p>scroll down</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-right">
+                        <div class="box-right">
+                              
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
         <div class="scrollbar-track scrollbar-track-x">
             <div class="scrollbar-thumb scrollbar-thumb-x"></div>

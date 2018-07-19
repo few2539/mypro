@@ -1,2 +1,12 @@
+//vendor
 @import 'vendor/normalize';
+
+
+//set default on website
+@import 'typo.scss';
+@import 'font-face.scss';
+@import 'variable.scss';
+
+
+//cumtom scss
 @import 'test.scss';
