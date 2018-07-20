@@ -11,38 +11,8 @@ $black: #000;
 //font
 $Gilda-font: 'Gilda Display';
 $Open-sans: 'Open Sans';
-//over size
-.font-display {
-    font-size: 90px;
-}
 
-.font-display2 {
-    font-size: 70px;
-}
-.font-small{
-    p{
-        font-size: 12px;
-    }
-   
-}
-h1,
-.h1 {
-    font-size: 48px;
-    margin: 0 0 ;
-}
-
-h2,
-.h2 {
-    font-size: 46px;
-}
-
-h3,
-.h3 {
-    font-size: 32p;
-}
-
-p,
-.p {
-    font-size: 15px;
-    margin: 0 0 ;
-}
+//line-height
+$line-heightDisplay: 1.5em;
+$line-heightBase: 1em;
+$line-heightSmall: 1.5em;

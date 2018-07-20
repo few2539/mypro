@@ -72,7 +72,7 @@ gulp.task('sass', function () {
         .pipe(sass().on('error', sass.logError))
 
         // ใส่ vendor prefixes ให้ไฟล์เหล่านั้น โดยใช้ autoprefixer
-        .pipe(autoprefixer(browser_support))
+        // .pipe(autoprefixer(browser_support))
 
         .pipe(gulp.dest(cssDest.dist));
 });

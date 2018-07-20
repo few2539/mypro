@@ -111,6 +111,11 @@
         <section class="home">
             <!-- <img src="src/assets/styles/image/hero1.jpg" alt="qq"> -->
             <div class="hero">
+                <div class="tap-gradient">
+                    <div class="color-gradient">
+
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col col-left">
                         <div class="box-left">
@@ -134,7 +139,50 @@
                     </div>
                     <div class="col col-right">
                         <div class="box-right">
-                              
+                            <div class="book">
+                                <button type="button" class="tan">book now</button>
+                            </div>
+                            <div class="whitebox">
+                                <div class="box-row">
+                                    <div class="col col1">
+                                        <a href="#">
+                                            <div class="text-box">
+                                                <div class="text-title font-smallTitle">
+                                                    <h2>The Village</h2>
+                                                </div>
+                                                <div class="text-sub font-small">
+                                                    <p>Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col col2">
+                                        <a href="#">
+                                            <div class="text-box">
+                                                <div class="text-title font-smallTitle">
+                                                    <h2>Accomodation</h2>
+                                                </div>
+                                                <div class="text-sub font-small">
+                                                    <p>Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col col3">
+                                        <a href="#">
+                                        <div class="text-box">
+                                            <div class="text-title font-smallTitle">
+                                                <h2>Dining</h2>
+                                            </div>
+                                            <div class="text-sub font-small">
+                                                <p>Lorem ipsum</p>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

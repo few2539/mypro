@@ -2,89 +2,44 @@
   width: 100%;
   height: 100vh;
   background-color: #eee;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Gilda Display'; }
 
 .container .row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+  flex-wrap: wrap; }
   .container .row .col {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%; }
     .container .row .col.col-left {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 50%;
-          -ms-flex: 0 0 50%;
-              flex: 0 0 50%;
+      flex: 0 0 50%;
       max-width: 50%;
       background-color: burlywood; }
       @media only screen and (max-width: 1000px) {
         .container .row .col.col-left {
-          -webkit-box-flex: 0;
-          -webkit-flex: 0 0 100%;
-              -ms-flex: 0 0 100%;
-                  flex: 0 0 100%;
+          flex: 0 0 100%;
           max-width: 100%; } }
       .container .row .col.col-left .content1 > * {
         opacity: 0;
-        -webkit-transform: translate(0, 30px);
-            -ms-transform: translate(0, 30px);
-                transform: translate(0, 30px);
-        -webkit-transition: opacity 2s linear, -webkit-transform 2s ease;
-        transition: opacity 2s linear, -webkit-transform 2s ease;
-        transition: opacity 2s linear, transform 2s ease;
-        transition: opacity 2s linear, transform 2s ease, -webkit-transform 2s ease; }
+        transform: translate(0, 30px);
+        transition: opacity 2s linear, transform 2s ease; }
       .container .row .col.col-left .content1.is-animate > * {
         opacity: 1;
-        -webkit-transform: translate(0, 0px);
-            -ms-transform: translate(0, 0px);
-                transform: translate(0, 0px);
-        -webkit-transition: opacity 1s linear, -webkit-transform 1s ease;
-        transition: opacity 1s linear, -webkit-transform 1s ease;
-        transition: opacity 1s linear, transform 1s ease;
-        transition: opacity 1s linear, transform 1s ease, -webkit-transform 1s ease; }
+        transform: translate(0, 0px);
+        transition: opacity 1s linear, transform 1s ease; }
         .container .row .col.col-left .content1.is-animate > *:nth-child(1) {
-          -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-          transition: opacity 1s ease, -webkit-transform 1s ease;
-          transition: opacity 1s ease, transform 1s ease;
-          transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease; }
+          transition: opacity 1s ease, transform 1s ease; }
         .container .row .col.col-left .content1.is-animate > *:nth-child(2) {
-          -webkit-transition: opacity 1s ease .2s, -webkit-transform 1s ease .2s;
-          transition: opacity 1s ease .2s, -webkit-transform 1s ease .2s;
-          transition: opacity 1s ease .2s, transform 1s ease .2s;
-          transition: opacity 1s ease .2s, transform 1s ease .2s, -webkit-transform 1s ease .2s; }
+          transition: opacity 1s ease .2s, transform 1s ease .2s; }
     .container .row .col.col-right {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 50%;
-          -ms-flex: 0 0 50%;
-              flex: 0 0 50%;
+      flex: 0 0 50%;
       max-width: 50%;
       background-color: gray; }
       @media only screen and (max-width: 1000px) {
         .container .row .col.col-right {
-          -webkit-box-flex: 0;
-          -webkit-flex: 0 0 100%;
-              -ms-flex: 0 0 100%;
-                  flex: 0 0 100%;
+          flex: 0 0 100%;
           max-width: 100%; } }
       .container .row .col.col-right .content2 {
         position: relative;
@@ -100,20 +55,12 @@
   margin-top: -50px;
   background-color: red;
   opacity: 0;
-  -webkit-transition: opacity 2s linear, -webkit-transform 1s ease;
-  transition: opacity 2s linear, -webkit-transform 1s ease;
-  transition: transform 1s ease, opacity 2s linear;
-  transition: transform 1s ease, opacity 2s linear, -webkit-transform 1s ease; }
+  transition: transform 1s ease, opacity 2s linear; }
   .container .boxred.is-animate {
     opacity: 1;
     background-color: blue;
-    -webkit-transform: translate(0, -100px);
-        -ms-transform: translate(0, -100px);
-            transform: translate(0, -100px);
-    -webkit-transition: opacity 2s linear, -webkit-transform 1s ease;
-    transition: opacity 2s linear, -webkit-transform 1s ease;
-    transition: transform 1s ease, opacity 2s linear;
-    transition: transform 1s ease, opacity 2s linear, -webkit-transform 1s ease; }
+    transform: translate(0, -100px);
+    transition: transform 1s ease, opacity 2s linear; }
 
 .container .boxgreen {
   position: absolute;
@@ -123,69 +70,37 @@
   width: 200px;
   height: 100px;
   opacity: 0;
-  -webkit-transform: translate(0, 100px);
-      -ms-transform: translate(0, 100px);
-          transform: translate(0, 100px);
-  -webkit-transition-property: width;
+  transform: translate(0, 100px);
   transition-property: width;
-  -webkit-transition: all 2s ease;
   transition: all 2s ease; }
   .container .boxgreen.is-animate {
     opacity: 1;
-    -webkit-transform: translate(0, 0px);
-        -ms-transform: translate(0, 0px);
-            transform: translate(0, 0px);
-    -webkit-transition: all 2s ease;
+    transform: translate(0, 0px);
     transition: all 2s ease;
-    -webkit-transition-delay: 0.3s;
-            transition-delay: 0.3s;
+    transition-delay: 0.3s;
     width: 250px; }
 
 section.section2 {
   margin-top: 50px;
   margin-bottom: 50px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  flex-wrap: wrap;
+  justify-content: center; }
   section.section2 .bigbox {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 50%;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+    flex: 0 0 50%;
     max-width: 50%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    flex-wrap: wrap;
     height: 300px;
     background-color: darkgoldenrod;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     position: relative; }
     section.section2 .bigbox .box {
       position: absolute;
       left: 50%;
       top: 50%;
-      -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       width: 100px;
       height: 100px;
       background: #fff; }
@@ -193,19 +108,11 @@ section.section2 {
 section.section3 .section-wrap {
   width: 100%; }
   section.section3 .section-wrap .wrap-object {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 0 -5px; }
     section.section3 .section-wrap .wrap-object .item-pic {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 33.333333333333336%;
-          -ms-flex: 0 0 33.333333333333336%;
-              flex: 0 0 33.333333333333336%;
+      flex: 0 0 33.333333333333336%;
       max-width: 33.333333333333336%;
       padding: 0 0 0 10px;
       margin-bottom: 5px;
@@ -235,29 +142,118 @@ section.home {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  section.home .hero .tap-gradient {
+    width: 100%;
+    position: absolute;
+    top: 0; }
+    section.home .hero .tap-gradient .color-gradient {
+      height: 20vh;
+      background: linear-gradient(rgba(37, 37, 37, 0.438) 10%, rgba(255, 255, 255, 0) 85%); }
   section.home .hero .row {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+    flex-wrap: wrap; }
     section.home .hero .row .col {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 100%;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
+      flex: 0 0 100%;
       max-width: 100%; }
       section.home .hero .row .col.col-left {
-        -webkit-box-flex: 0;
-        -webkit-flex: 0 0 50%;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
+        flex: 0 0 50%;
         max-width: 50%; }
+        section.home .hero .row .col.col-left .box-left {
+          position: relative;
+          height: 100vh; }
+          section.home .hero .row .col.col-left .box-left .text-wrap {
+            color: #f2f2f2; }
+            section.home .hero .row .col.col-left .box-left .text-wrap .hero-group {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              padding-left: 18.84058%;
+              padding-bottom: 31.25%; }
+              section.home .hero .row .col.col-left .box-left .text-wrap .hero-group .text-hero {
+                font-family: "Gilda Display"; }
+                section.home .hero .row .col.col-left .box-left .text-wrap .hero-group .text-hero h1 {
+                  line-height: 0; }
+              section.home .hero .row .col.col-left .box-left .text-wrap .hero-group .text-sub {
+                padding-top: 40px;
+                font-family: "Open Sans";
+                text-transform: uppercase; }
+          section.home .hero .row .col.col-left .box-left .text-scroll .text-rotate {
+            position: absolute;
+            margin: 0;
+            transform-origin: left top;
+            left: 0;
+            bottom: 0;
+            color: #f2f2f2;
+            font-family: "Open Sans";
+            transform: rotate(-90deg);
+            text-transform: uppercase;
+            line-height: 0;
+            padding-top: 4.375%;
+            padding-left: 1.08696%; }
       section.home .hero .row .col.col-right {
-        -webkit-box-flex: 0;
-        -webkit-flex: 0 0 50%;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
+        flex: 0 0 50%;
         max-width: 50%; }
+        section.home .hero .row .col.col-right .box-right {
+          position: relative;
+          height: 100vh; }
+          section.home .hero .row .col.col-right .box-right .book {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translate(50%, 0) rotate(-90deg); }
+            section.home .hero .row .col.col-right .box-right .book button.tan {
+              transform: translate(0, -50%);
+              outline: 0;
+              right: 0;
+              top: 50%;
+              padding: 20px 35px; }
+          section.home .hero .row .col.col-right .box-right .whitebox {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%; }
+            section.home .hero .row .col.col-right .box-right .whitebox .box-row {
+              display: flex;
+              flex-wrap: wrap; }
+              section.home .hero .row .col.col-right .box-right .whitebox .box-row .col {
+                position: relative;
+                flex: 0 0 33.333333333333336%;
+                max-width: 33.333333333333336%;
+                padding-top: 3.75%;
+                padding-bottom: 3.75%; }
+                section.home .hero .row .col.col-right .box-right .whitebox .box-row .col .text-box {
+                  text-align: center; }
+                  section.home .hero .row .col.col-right .box-right .whitebox .box-row .col .text-box .text-title {
+                    font-family: "Gilda Display"; }
+                  section.home .hero .row .col.col-right .box-right .whitebox .box-row .col .text-box .text-sub {
+                    font-family: "Open Sans"; }
+                section.home .hero .row .col.col-right .box-right .whitebox .box-row .col.col1 {
+                  background-color: #fff; }
+                  section.home .hero .row .col.col-right .box-right .whitebox .box-row .col.col1::after {
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    content: "";
+                    height: 50%;
+                    width: 1px;
+                    background-color: #000;
+                    transform: translate(0, -50%); }
+                  section.home .hero .row .col.col-right .box-right .whitebox .box-row .col.col1:hover a {
+                    color: #a4843e; }
+                section.home .hero .row .col.col-right .box-right .whitebox .box-row .col.col2 {
+                  background-color: #fff; }
+                  section.home .hero .row .col.col-right .box-right .whitebox .box-row .col.col2::after {
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    content: "";
+                    height: 50%;
+                    width: 1px;
+                    background-color: #000;
+                    transform: translate(0, -50%); }
+                  section.home .hero .row .col.col-right .box-right .whitebox .box-row .col.col2:hover a {
+                    color: #a4843e; }
+                section.home .hero .row .col.col-right .box-right .whitebox .box-row .col.col3 {
+                  background-color: #fff; }
+                  section.home .hero .row .col.col-right .box-right .whitebox .box-row .col.col3:hover a {
+                    color: #a4843e; }
