@@ -23,12 +23,13 @@ button {
 
 //over size
 .font-display {
-    // @include fp(font-size, 36, 110);
-    font-size: 100px;
+    @include fp(font-size, 36, 110);
+    // font-size: 110px;
 }
 
 .font-display2 {
-    font-size: 70px;
+    @include fp(font-size, 15,70);
+    // font-size: 70px;
 }
 .font-smallTitle{
     h2{
@@ -51,7 +52,7 @@ h1,
 
 h2,
 .h2 {
-    font-size: 46px;
+    @include fp(font-size, 30,46);
     line-height: $line-heightBase;
     margin: 0 0;
 }
@@ -81,3 +82,7 @@ a:link {
 a:visited {
     text-decoration: none;
 }
+
+
+  //  font-family: $Gilda-font;
+  // font-family: $$Open-sans;

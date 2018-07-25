@@ -21,10 +21,22 @@ button.tan {
       font-size: 15px; } }
 
 .font-display {
-  font-size: 100px; }
+  font-size: calc(5.44118vw + 18.58824px); }
+  @media (max-width: 320px) {
+    .font-display {
+      font-size: 36px; } }
+  @media (min-width: 1680px) {
+    .font-display {
+      font-size: 110px; } }
 
 .font-display2 {
-  font-size: 70px; }
+  font-size: calc(4.04412vw + 2.05882px); }
+  @media (max-width: 320px) {
+    .font-display2 {
+      font-size: 15px; } }
+  @media (min-width: 1680px) {
+    .font-display2 {
+      font-size: 70px; } }
 
 .font-smallTitle h2 {
   font-size: 20px; }
@@ -40,9 +52,17 @@ h1,
 
 h2,
 .h2 {
-  font-size: 46px;
+  font-size: calc(1.17647vw + 26.23529px);
   line-height: 1em;
   margin: 0 0; }
+  @media (max-width: 320px) {
+    h2,
+    .h2 {
+      font-size: 30px; } }
+  @media (min-width: 1680px) {
+    h2,
+    .h2 {
+      font-size: 46px; } }
 
 h3,
 .h3 {

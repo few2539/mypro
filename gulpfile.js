@@ -43,9 +43,11 @@ var Js = {
 
         './' + BASE.src + 'assets/styles/js/vender/jquery-3.3.1.min.js',
         './' + BASE.src + 'assets/styles/js/vender/smooth-scrollbar.js',
+        './' + BASE.src + 'assets/styles/js/vender/slick.js',
         //Js      
         './' + BASE.src + 'assets/styles/js/animation.js',
         './' + BASE.src + 'assets/styles/js/scrollsmooth.js',
+        './' + BASE.src + 'assets/styles/js/slick-c.js',
     ],
 
 
@@ -78,15 +80,6 @@ gulp.task('sass', function () {
 });
 
 
-//minify css
-gulp.task('minifyCss', () => {
-    return gulp.src(cssDest.dist + '/main.css')
-        .pipe(cleanCSS({
-            compatibility: 'ie8'
-        }))
-        .pipe(gulp.dest(cssDest.dist));
-});
-
 
 
 
@@ -118,12 +111,16 @@ gulp.task('watch', function () {
 //         cb
 //     );
 // });
+gulp.task('default',['sass','combineJs','watch'],function(){
 
-
-
-
-
-// เพิ่ม ''task ให้ทำพร้อมกับ default task
-gulp.task('default', ['sass', 'minifyCss', 'combineJs', 'watch'], function () {
-    // ระบุว่า default task ทำอะไร (เว้นไว้ก่อน)
 });
+
+
+//minify css
+// gulp.task('minifyCss', () => {
+//     return gulp.src(cssDest.dist + '/main.css')
+//         .pipe(cleanCSS({
+//             compatibility: 'ie8'
+//         }))
+//         .pipe(gulp.dest(cssDest.dist));
+// });

@@ -131,10 +131,6 @@ section.section3 .section-wrap {
           height: 100%;
           object-fit: cover; }
 
-#few {
-  height: 100%;
-  overflow: hidden; }
-
 section.home {
   background-image: url("../image/hero2.jpg");
   height: 100vh;
@@ -257,3 +253,273 @@ section.home {
                   background-color: #fff; }
                   section.home .hero .row .col.col-right .box-right .whitebox .box-row .col.col3:hover a {
                     color: #a4843e; }
+
+section.introweb {
+  width: 100%; }
+  section.introweb .wrap-content {
+    padding-top: 144px;
+    padding-bottom: 8.66142%;
+    display: flex;
+    flex-wrap: wrap; }
+    section.introweb .wrap-content .intro-left {
+      padding-top: 65px;
+      flex: 0 0 41.66667%;
+      max-width: 41.66667%; }
+      section.introweb .wrap-content .intro-left .boxintro-left .text-title {
+        padding-left: 22.6087%;
+        padding-right: 17.3913%;
+        padding-bottom: 20.83333%;
+        font-family: "Gilda Display"; }
+        section.introweb .wrap-content .intro-left .boxintro-left .text-title h2 {
+          padding-bottom: 55px; }
+      section.introweb .wrap-content .intro-left .boxintro-left .wrap-vdo-left .vdo-intro {
+        position: relative;
+        width: 100%;
+        padding-top: 78.2608695652%; }
+        section.introweb .wrap-content .intro-left .boxintro-left .wrap-vdo-left .vdo-intro img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          top: 0;
+          left: 0; }
+      section.introweb .wrap-content .intro-left .boxintro-left hr {
+        justify-content: flex-start;
+        width: 11.30435%;
+        height: 2px;
+        background-color: black; }
+    section.introweb .wrap-content .intro-right {
+      flex: 0 0 58.33333%;
+      max-width: 58.33333%; }
+      section.introweb .wrap-content .intro-right .boxintro-right {
+        padding-right: 6.8323%; }
+        section.introweb .wrap-content .intro-right .boxintro-right .warp-box-pic .box-pic {
+          position: relative;
+          width: 100%;
+          padding-top: 92%; }
+          section.introweb .wrap-content .intro-right .boxintro-right .warp-box-pic .box-pic img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            top: 0;
+            left: 0; }
+
+section.show-highlight .container-highlight {
+  width: 100%; }
+  section.show-highlight .container-highlight .wrap-box-highlight {
+    padding-bottom: 8.33333%;
+    position: relative; }
+    section.show-highlight .container-highlight .wrap-box-highlight .grey-background {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background-color: #f2f2f2;
+      padding-top: 34.05797%;
+      width: 50%; }
+    section.show-highlight .container-highlight .wrap-box-highlight .box-highlight {
+      padding-right: 4.33071%;
+      padding-left: 4.33071%;
+      position: relative; }
+      section.show-highlight .container-highlight .wrap-box-highlight .box-highlight .box-pic {
+        position: relative;
+        width: 100%;
+        padding-top: 51.5748031496%; }
+        section.show-highlight .container-highlight .wrap-box-highlight .box-highlight .box-pic img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          top: 0;
+          left: 0; }
+      section.show-highlight .container-highlight .wrap-box-highlight .box-highlight .box-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 25%; }
+        section.show-highlight .container-highlight .wrap-box-highlight .box-highlight .box-text h2 {
+          font-family: "Gilda Display";
+          color: #fff;
+          margin-bottom: 21.25%; }
+        section.show-highlight .container-highlight .wrap-box-highlight .box-highlight .box-text .warp-subtiltle p {
+          font-family: "Open Sans";
+          color: #fff; }
+        section.show-highlight .container-highlight .wrap-box-highlight .box-highlight .box-text .warp-subtiltle hr {
+          width: 16.25%;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%); }
+  section.show-highlight .container-highlight .wrap-box-highlight2 {
+    position: relative; }
+    section.show-highlight .container-highlight .wrap-box-highlight2 .grey-background {
+      position: absolute;
+      background-color: #f2f2f2;
+      padding-top: 34.05797%;
+      width: 50%;
+      position: absolute;
+      right: 0;
+      top: 100%; }
+    section.show-highlight .container-highlight .wrap-box-highlight2 .box-highlight {
+      padding-left: 4.33071%;
+      position: relative; }
+      section.show-highlight .container-highlight .wrap-box-highlight2 .box-highlight .box-pic {
+        position: relative;
+        width: 100%;
+        padding-top: 51.5748031496%; }
+        section.show-highlight .container-highlight .wrap-box-highlight2 .box-highlight .box-pic img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          top: 0;
+          left: 0; }
+      section.show-highlight .container-highlight .wrap-box-highlight2 .box-highlight .box-text {
+        text-align: center;
+        width: 25%; }
+        section.show-highlight .container-highlight .wrap-box-highlight2 .box-highlight .box-text h2 {
+          font-family: "Gilda Display";
+          color: #fff;
+          margin-bottom: 21.25%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -100%); }
+        section.show-highlight .container-highlight .wrap-box-highlight2 .box-highlight .box-text .warp-subtiltle {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          text-align: left;
+          max-width: 30%;
+          padding-bottom: 3.62319%;
+          padding-right: 5.7971%; }
+          section.show-highlight .container-highlight .wrap-box-highlight2 .box-highlight .box-text .warp-subtiltle p {
+            font-family: "Open Sans";
+            color: #fff; }
+          section.show-highlight .container-highlight .wrap-box-highlight2 .box-highlight .box-text .warp-subtiltle hr {
+            width: 16.25%;
+            position: absolute;
+            top: -50%;
+            left: 0; }
+    section.show-highlight .container-highlight .wrap-box-highlight2 .wrap-box-highlight3 {
+      padding-top: 8.33333%;
+      padding-bottom: 8.33333%; }
+      section.show-highlight .container-highlight .wrap-box-highlight2 .wrap-box-highlight3 .box-highlight {
+        padding-right: 4.33071%;
+        position: relative; }
+        section.show-highlight .container-highlight .wrap-box-highlight2 .wrap-box-highlight3 .box-highlight .box-pic {
+          position: relative;
+          width: 100%;
+          padding-top: 51.5748031496%; }
+          section.show-highlight .container-highlight .wrap-box-highlight2 .wrap-box-highlight3 .box-highlight .box-pic img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            top: 0;
+            left: 0; }
+        section.show-highlight .container-highlight .wrap-box-highlight2 .wrap-box-highlight3 .box-highlight .box-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          width: 25%; }
+          section.show-highlight .container-highlight .wrap-box-highlight2 .wrap-box-highlight3 .box-highlight .box-text h2 {
+            font-family: "Gilda Display";
+            color: #fff;
+            margin-bottom: 21.25%; }
+          section.show-highlight .container-highlight .wrap-box-highlight2 .wrap-box-highlight3 .box-highlight .box-text .warp-subtiltle p {
+            font-family: "Open Sans";
+            color: #fff; }
+          section.show-highlight .container-highlight .wrap-box-highlight2 .wrap-box-highlight3 .box-highlight .box-text .warp-subtiltle hr {
+            width: 16.25%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); }
+  section.show-highlight .container-highlight .wrap-box-highlight3 {
+    padding-top: 8.33333%;
+    padding-bottom: 8.33333%; }
+    section.show-highlight .container-highlight .wrap-box-highlight3 .box-highlight {
+      padding-right: 4.33071%;
+      position: relative; }
+      section.show-highlight .container-highlight .wrap-box-highlight3 .box-highlight .box-pic {
+        position: relative;
+        width: 100%;
+        padding-top: 51.5748031496%; }
+        section.show-highlight .container-highlight .wrap-box-highlight3 .box-highlight .box-pic img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          top: 0;
+          left: 0; }
+      section.show-highlight .container-highlight .wrap-box-highlight3 .box-highlight .box-text {
+        text-align: center;
+        width: 25%; }
+        section.show-highlight .container-highlight .wrap-box-highlight3 .box-highlight .box-text h2 {
+          font-family: "Gilda Display";
+          color: #fff;
+          margin-bottom: 21.25%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -100%); }
+        section.show-highlight .container-highlight .wrap-box-highlight3 .box-highlight .box-text .warp-subtiltle {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          text-align: left;
+          max-width: 30%;
+          padding-bottom: 3.62319%;
+          padding-left: 5.7971%; }
+          section.show-highlight .container-highlight .wrap-box-highlight3 .box-highlight .box-text .warp-subtiltle p {
+            font-family: "Open Sans";
+            color: #fff; }
+          section.show-highlight .container-highlight .wrap-box-highlight3 .box-highlight .box-text .warp-subtiltle hr {
+            width: 16.25%;
+            position: absolute;
+            top: -50%; }
+    section.show-highlight .container-highlight .wrap-box-highlight3 .wrap-box-highlight3 {
+      padding-bottom: 8.33333%; }
+      section.show-highlight .container-highlight .wrap-box-highlight3 .wrap-box-highlight3 .box-highlight {
+        padding-right: 4.33071%;
+        position: relative; }
+        section.show-highlight .container-highlight .wrap-box-highlight3 .wrap-box-highlight3 .box-highlight .box-pic {
+          position: relative;
+          width: 100%;
+          padding-top: 51.5748031496%; }
+          section.show-highlight .container-highlight .wrap-box-highlight3 .wrap-box-highlight3 .box-highlight .box-pic img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            top: 0;
+            left: 0; }
+        section.show-highlight .container-highlight .wrap-box-highlight3 .wrap-box-highlight3 .box-highlight .box-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          width: 25%; }
+          section.show-highlight .container-highlight .wrap-box-highlight3 .wrap-box-highlight3 .box-highlight .box-text h2 {
+            font-family: "Gilda Display";
+            color: #fff;
+            margin-bottom: 21.25%; }
+          section.show-highlight .container-highlight .wrap-box-highlight3 .wrap-box-highlight3 .box-highlight .box-text .warp-subtiltle p {
+            font-family: "Open Sans";
+            color: #fff; }
+          section.show-highlight .container-highlight .wrap-box-highlight3 .wrap-box-highlight3 .box-highlight .box-text .warp-subtiltle hr {
+            width: 16.25%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); }
+
+#few {
+  height: 100%;
+  overflow: hidden; }
