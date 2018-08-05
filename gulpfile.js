@@ -6,7 +6,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var gulp = require('gulp');
-var cleanCSS = require('gulp-clean-css');
+// var cleanCSS = require('gulp-clean-css');
 
 //js
 var concat = require('gulp-concat');
@@ -69,18 +69,14 @@ var browser_support = [
 
 
 //compile  sass to css
+
 gulp.task('sass', function () {
     gulp.src(sassFiles.src)
         .pipe(sass().on('error', sass.logError))
-
         // ใส่ vendor prefixes ให้ไฟล์เหล่านั้น โดยใช้ autoprefixer
         // .pipe(autoprefixer(browser_support))
-
         .pipe(gulp.dest(cssDest.dist));
 });
-
-
-
 
 
 
@@ -95,7 +91,7 @@ gulp.task('combineJs', function () {
 gulp.task('watch', function () {
     gulp.watch(sassFiles.src, ['sass']);
     gulp.watch(Js.src, ['combineJs']);
-    gulp.watch(cssDest.dist + '/main.css', ['minifyCss']);
+    // gulp.watch(cssDest.dist + '/main.css', ['minifyCss']);
 });
 
 
