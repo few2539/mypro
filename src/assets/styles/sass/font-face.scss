@@ -1,18 +1,13 @@
 @font-face {
     font-family: 'Gilda Display';
-    src: url('../font/GildaDisplay-Regular.woff2') format('woff2'),
-        url('../font/GildaDisplay-Regular.woff') format('woff'),
-        url('../font/GildaDisplay-Regular.ttf') format('ttf');
+    src: url('../font/GildaDisplay-Regular.woff2') format('woff2'), url('../font/GildaDisplay-Regular.woff') format('woff'), url('../font/GildaDisplay-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 
-
 @font-face {
     font-family: 'Open Sans';
-    src: url('../font/OpenSans.woff2') format('woff2'),
-    url('../font/OpenSans.woff') format('woff'),
-        url('../font/OpenSans.woff') format('ttf');
+    src: url('../font/OpenSans.woff2') format('woff2'), url('../font/OpenSans.woff') format('woff'), url('../font/OpenSans.woff') format('ttf');
     font-weight: normal;
     font-style: normal;
 }

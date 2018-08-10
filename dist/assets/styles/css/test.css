@@ -520,6 +520,23 @@ section.show-highlight .container-highlight {
             top: 50%;
             transform: translate(-50%, -50%); }
 
+section.carousel {
+  padding-bottom: 50px; }
+  section.carousel .warp-carousel .headslick {
+    position: relative;
+    width: 80%;
+    margin: 0 auto; }
+    section.carousel .warp-carousel .headslick .pic-slick {
+      position: relative;
+      padding-top: 51.5748031496%; }
+      section.carousel .warp-carousel .headslick .pic-slick img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0; }
+
 #few {
   height: 100%;
   overflow: hidden; }
